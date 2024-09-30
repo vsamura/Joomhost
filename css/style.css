@@ -6,10 +6,15 @@ html{
 *::before{
   box-sizing: inherit;
 }
-
+body{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
 a{
   color: #000;
   text-decoration: none;
+  display: inline-block;
 }
 .container{
   max-width: 1170px;
@@ -35,4 +40,79 @@ a{
 .menu__list {
   display: flex;
   gap: 38px;
+}
+
+.top {
+  background-color: #3a83e5;
+  padding-top: 150px;
+  padding-bottom: 180px;
+}
+.top__inner {
+  display: flex;
+}
+.top-info {
+  max-width: 555px;
+  margin-right: 35px;
+  color: #fff;
+}
+.top-info__title {
+  font-family: "Roboto", system-ui;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+.top-info__descr {
+  font-size: 19px;
+  font-weight: 900;
+  line-height: 52px;
+}
+.top-info__descr span{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 35px;
+}
+.top-info__list {
+  list-style: none;
+  margin-bottom: 50px;
+}
+.top-info__list li{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 3px;
+  padding-left: 24px;
+  position: relative;
+}
+.top-info__list li::before {
+  content: "";
+  background-image: url(../images/ico-list.png);
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.top-info__btn {
+  color: #fff;
+  text-transform: uppercase;
+  border: 3px #fff solid;
+  padding: 13px 44px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+.top-images {
+}
+.top-images__box {
+}
+.top-images__circle {
+}
+.top-images__title {
+}
+.top-images__price {
+}
+.top-images__date {
 }
