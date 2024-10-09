@@ -246,6 +246,13 @@ a{
   right: 0;
   text-align: center;
   padding: 20px 10px;
+  transition: all 1s;
+}
+.price-item__btn:hover{
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  font-size: 21px;
+  transition: all 1s;
 }
 
 .footer {
@@ -289,9 +296,11 @@ a{
 }
 .footer__list li a{
   color: #718db2;
+  transition: all 0.5s;
 }
 .footer__list li a:hover{
   color: #d0e4ff;
+  transition: all 0.5s;
 }
 input,
 textarea{
@@ -326,8 +335,8 @@ button{
   background-color: #2575e7;
   border: none;
   text-transform: uppercase;
+  transition: all 0.5s;
 }
 button:hover{
-  font-size: 14px;
   border: 1px solid #fff;
 }
