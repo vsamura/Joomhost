@@ -247,3 +247,24 @@ a{
   text-align: center;
   padding: 20px 10px;
 }
+
+.footer {
+  background-color: #344458;
+  padding-top: 80px;
+  padding-bottom: 180px;
+}
+.footer__iner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-col {
+  width: 270px;
+}
+.footer__logo {
+}
+.footer__text {
+}
+.footer__title {
+}
+.footer__list {
+}
